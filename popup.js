@@ -1,5 +1,6 @@
 $('document').onReady(function() {
-	$('.gallery') = new gallery({
-
-	});
+	function OpenInNewTab(url) {
+  		var win = window.open(url, '_blank');
+  		win.focus();
+	}
 });
